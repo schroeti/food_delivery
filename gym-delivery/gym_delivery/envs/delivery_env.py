@@ -19,7 +19,7 @@ MAP = [
 ]
 
 
-class Delivery(discrete.DiscreteEnv):
+class Delivery(gym.Env):
     """
     The Taxi Problem
     from "Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition"
