@@ -75,9 +75,9 @@ class Delivery(gym.Env):
 
         self.locs = locs = [(0,0), (0,4), (4,0), (4,3)]
 
-        num_states = 500
-        num_rows = 5
-        num_columns = 5
+        num_states = 500 #720
+        num_rows = 5 #6
+        num_columns = 5 #6
         max_row = num_rows - 1
         max_col = num_columns - 1
         initial_state_distrib = np.zeros(num_states)
